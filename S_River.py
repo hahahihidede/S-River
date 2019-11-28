@@ -12,7 +12,7 @@ GPIO.output(RELAIS_1_GPIO, GPIO.HIGH) # on
 
 
 servername = 'http://inoprex.com/post-esp-data.php'
-apiKeyValue = 'tPmAT5Ab3j7F9'
+apiKeyValue = 'your API'
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 EMULATE_HX711=False
 referenceUnit = -441
